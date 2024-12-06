@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover the Bay Area</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <nav class="header-nav">
+                    <a  href="index.html">
+                        <img class="logo" src="images/LOGO.svg" alt="Logo">
+                    </a>
+                    <ul class="header-menu">
+                        <li>
+                            <a class="nav-link" href="welcome.html">Welcome</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link" href="#"><span>Things to Do</span><i class="fa fa-chevron-down"></i></a>
+                            <ul class="dropdown-content">
+                                <li><a class="dropdown-link" href="">The Best Hiking Trails</a></li>
+                                <li><a class="dropdown-link" href="">Museums & Galleries</a></li>
+                                <li><a class="dropdown-link" href="">Outdoors Activities</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Eat & Drink</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="fullscreen-video-wrap">
+            <video loop muted autoplay>
+                <source src="video/3259467796.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content container">
+            <h1 class="main-title">Discover the Best of the Bay Area</h1>
+            <div class="hero-buttons">
+                <div class="video-controls">
+                    <button class="video-control-btn playback" aria-pressed="true" aria-label="pause button">
+                        <img src="images/icons/pause.svg" alt="pause">
+                    </button>
+                    <button class="video-control-btn volume" aria-pressed="false" aria-label="unmute button">
+                        <img src="images/icons/soundOff.svg" alt="">
+                    </button>
+                </div>
+                <a class="hero-btn" href="welcome.html"><span>Start Exploring</span></a>
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    
+
+</body>
+
+</html>
